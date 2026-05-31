@@ -1,0 +1,112 @@
+{
+  "users": [
+    { "id": "1", "name": "ישראל ישראלי", "email": "israel@gmail.com" },
+    { "id": "2", "name": "רחל לוי", "email": "rachel@gmail.com" },
+    { "id": "3", "name": "דוד כהן", "email": "david@gmail.com" }
+  ],
+  "courses": [
+    {
+      "id": "101",
+      "title": "Full-Stack Development עם Node.js ו-Angular",
+      "language": "JavaScript / TypeScript",
+      "hours": 120,
+      "price": 3200,
+      "level": "Advanced"
+    },
+    {
+      "id": "102",
+      "title": "מבוא לתכנות ופתרון בעיות בשפת C#",
+      "language": "C#",
+      "hours": 60,
+      "price": 1500,
+      "level": "Beginner"
+    },
+    {
+      "id": "103",
+      "title": "פיתוח אפליקציות ומערכות עם .NET Core",
+      "language": "C#",
+      "hours": 90,
+      "price": 2400,
+      "level": "Intermediate"
+    },
+    {
+      "id": "104",
+      "title": "פייתון מאפס ל-Mastery: אלגוריתמים ומבני נתונים",
+      "language": "Python",
+      "hours": 80,
+      "price": 1800,
+      "level": "Beginner"
+    },
+    {
+      "id": "105",
+      "title": "בניית APIs מהירים עם FastAPI ו-MongoDB",
+      "language": "Python",
+      "hours": 45,
+      "price": 1200,
+      "level": "Advanced"
+    },
+    {
+      "id": "106",
+      "title": "פיתוח מובייל חוצה פלטפורמות עם Flutter",
+      "language": "Dart",
+      "hours": 100,
+      "price": 2800,
+      "level": "Intermediate"
+    },
+    {
+      "id": "107",
+      "title": "ג'אווה למתקדמים וארכיטקטורת תוכנה",
+      "language": "Java",
+      "hours": 85,
+      "price": 2200,
+      "level": "Advanced"
+    },
+    {
+      "id": "108",
+      "title": "יסודות פיתוח הפרונטאנד: HTML, CSS ו-JavaScript",
+      "language": "JavaScript",
+      "hours": 50,
+      "price": 950,
+      "level": "Beginner"
+    },
+    {
+      "id": "109",
+      "title": "תכנות מערכות וניהול זיכרון בשפת C++",
+      "language": "C++",
+      "hours": 75,
+      "price": 2100,
+      "level": "Intermediate"
+    },
+    {
+      "id": "110",
+      "title": "ניהול בסיסי נתונים ושאילתות SQL Server מורכבות",
+      "language": "SQL",
+      "hours": 40,
+      "price": 1100,
+      "level": "Beginner"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "5001",
+      "userId": "1",
+      "courseId": "101",
+      "purchaseDate": "2026-05-10",
+      "pricePaid": 3200
+    },
+    {
+      "id": "5002",
+      "userId": "1",
+      "courseId": "105",
+      "purchaseDate": "2026-05-15",
+      "pricePaid": 1200
+    },
+    {
+      "id": "5003",
+      "userId": "2",
+      "courseId": "104",
+      "purchaseDate": "2026-05-20",
+      "pricePaid": 1800
+    }
+  ]
+}
